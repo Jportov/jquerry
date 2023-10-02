@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    background-color: rgb(81, 80, 82);
+    
+}
+
+header {
+    background-color: rgb(81, 80, 82);
+    padding: 16px 0;
+    color: #020202;
+    display: flex;
+    border-bottom: 16px solid rgb(81, 80, 82);;
+    font-style: italic;
+    justify-content: center;
+}
+
+form {
+    text-align: center;
+    background-color: rgb(81, 80, 82);
+    padding: 24px 0;
+    
+}
+
+input, button {
+    padding: 8px;   
+}
+button {
+    background-color: rgb(57, 57, 58);
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: #0c0c0c;
+}
+ul {
+    display: inline;
+    text-align: center;
+
+}
+
+
