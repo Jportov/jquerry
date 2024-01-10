@@ -1,43 +1,49 @@
 * {
     margin: 0;
-    padding: 0; 
+    padding: 0;
     box-sizing: border-box;
-    font-family: Roboto, sans-serif;
-    background-color: rgb(81, 80, 82);
-    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #001925;
 }
 
+
 header {
-    background-color: rgb(81, 80, 82);
     padding: 16px 0;
-    color: #020202;
+    color: #000000;
     display: flex;
-    border-bottom: 16px solid rgb(81, 80, 82);;
+    border-bottom: 16px solid #001925;
     font-style: italic;
     justify-content: center;
 }
 
 form {
     text-align: center;
-    background-color: rgb(81, 80, 82);
     padding: 24px 0;
-    
+    text-decoration: #0a0a0a;
 }
 
 input, button {
     padding: 8px;   
+    margin-bottom: 38px;
+    background-color: #011620;
 }
 button {
-    background-color: rgb(57, 57, 58);
+    background-color: #011620;
     border: none;
     cursor: pointer;
     font-weight: bold;
-    color: #0c0c0c;
+    color: #000000;
 }
 ul {
     display: inline;
     text-align: center;
-
+    background: #000000;
 }
 
 
